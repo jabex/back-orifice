@@ -55,14 +55,6 @@ plain[5] =  bytes('T')
 plain[6] =  bytes('Y')
 plain[7] =  bytes('?')
 
-# LEN  The value of this field cannot be less than 19 
-# import struct
-# aux = tuple(struct.pack("<I", 18))
-# plain[8]  = aux[0] #0x12
-# plain[9]  = aux[1] #0x00
-# plain[10] = aux[2] #0x00
-# plain[11] = aux[3] #0x00
-
 # Cipher text
 hex_string = "ce63d1d216e713cf39a5a5864d8ab466aa32"
 hex_data = hex_string.decode("hex")
